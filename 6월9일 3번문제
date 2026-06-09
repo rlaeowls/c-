@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int key, i, n;
+	printf("input size of the list:");
+	scanf("%d", &n);
+	int list [n];   
+	for (i=0; i < n; i++);  
+	printf("input 5 values of the list:\n",n);
+	scanf("%d",&list[i]);
+	for (i = 0; i < n; i++) {
+        printf("list[%d]: ", i);
+        scanf("%d", &list[i]);
+}
+	for (i = 0; i < 5; i++)
+		printf("%d ", list[i]);
+	printf("\ninput a key balue : ");
+	scanf("%d", &key);
+	for(i = 0; i < 5; i++){
+		if(list[i] == key)
+			printf("find the key at %d of the list arrary\n", i + i);}
+	printf("end\n");
+	return 0;
+}
