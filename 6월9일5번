@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h> 
+#include <time.h>   
+
+int main(void)
+{
+    int i;
+    srand(time(NULL));
+
+    printf("난수 생성:\n");
+
+    for (i = 0; i < 5; i++) {
+      .
+        int random_num = (rand() % 100) + 1;
+        
+        printf("%d ", random_num);
+    }
+    
+    printf("\n");
+    return 0;
+}
